@@ -29,10 +29,15 @@ Users should be able to:
 - User can also see the cart by just clicking the cart item or hovering over the cart, moreover, the user can also delete
   items from the cart by just clicking the delete icon inside the cart.
 
+### Screenshot
+
+![](/screenshot.png)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Code: [GitHub](https://github.com/Naveed89-tech/E-CommercePage)
+- Live Site URL: [ecommerceshosestore](https://ecommerceshosestore.netlify.app/#)
+- Portfolio_Website: [Portfolio_Website](https://naveedtechs.netlify.app/)
 
 ## My process
 
@@ -93,6 +98,6 @@ I will more focus on the javascript and CSS parts. In CSS animation and responsi
 
 ## Author
 
-- Naveed - [Naveed]
-- Frontend Mentor - [@Naveed89-tech](https://www.frontendmentor.io/profile/Naveed89-tech)
 - Twitter - [@Naveed_Tech_T](https://twitter.com/Naveed_Tech_T)
+- Linkedin - [@muhammad-naveed](https://www.linkedin.com/in/muhammad-naveed-857600231/)
+- Website - [Naveed](https://naveedtechs.netlify.app/)

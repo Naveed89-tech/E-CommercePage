@@ -24,6 +24,9 @@
   .images-container {
     gap: 2.4rem;
   }
+  .logo-hide {
+    display: block;
+  }
 }
 
 /*****************/
@@ -48,6 +51,9 @@ will reduce based on this value*/
   .btn:link {
     padding: 1.2rem 2.4rem;
   }
+  .logo-hide {
+    display: block;
+  }
 }
 /*****************/
 /* Landscape tablets*
@@ -68,6 +74,9 @@ will reduce based on this value*/
   }
   .main-navigation-list {
     gap: 3.2rem;
+  }
+  .logo-hide {
+    display: block;
   }
 }
 /*****************/
@@ -136,6 +145,9 @@ will reduce based on this value*/
   .btn:link {
     padding: 0.8rem 1.6rem;
   }
+  .logo-hide {
+    display: none;
+  }
 }
 /* *****************/
 /* Landscape tablets*
@@ -152,7 +164,7 @@ will reduce based on this value*/
     z-index: 1;
   }
   .showCart {
-    z-index: 1;
+    z-index: 99999;
   }
 
   .header {
@@ -271,6 +283,10 @@ will reduce based on this value*/
     margin-bottom: 3.2rem;
     cursor: pointer;
   }
+  .logo-hide {
+    display: none;
+  }
+
   .btn--right:link,
   .btn--right:visited {
     color: #555;

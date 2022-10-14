@@ -184,12 +184,12 @@ function degenerateEvent() {
 // click effect
 cartShow.addEventListener("click", function (e) {
   generateEvent();
-  cartShow.removeEventListener("mouseenter", generateEvent);
-  cartShow.removeEventListener("mouseleave", degenerateEvent);
+  // cartShow.removeEventListener("mouseenter", generateEvent);
+  // cartShow.removeEventListener("mouseleave", degenerateEvent);
 });
-cartShow.addEventListener("mouseenter", generateEvent);
+// cartShow.addEventListener("mouseenter", generateEvent);
 
-cartShow.addEventListener("mouseleave", degenerateEvent);
+// cartShow.addEventListener("mouseleave", degenerateEvent);
 
 // close cart container on click somewhere outside  container
 window.addEventListener("click", function (e) {
@@ -236,6 +236,7 @@ const openNavigation = document.querySelector(".main-navigation");
 const menuBtn = document.querySelectorAll(".menu-btn");
 const logoBar = document.querySelector(".logo--bars");
 const innerLogo = document.querySelector(".logo--inner");
+const logo = document.querySelector(".logo");
 
 barBtn.addEventListener("click", function () {
   openNavigation.classList.add("active");
@@ -249,3 +250,4 @@ closBtn.addEventListener("click", function () {
   closBtn.style.display = "none";
   innerLogo.style.display = "block";
 });
+// for removing mobile screen
